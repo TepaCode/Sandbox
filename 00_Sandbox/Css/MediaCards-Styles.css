@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../Src/Background_Black&lines.jpg");
+    background-size: cover;
+    color: aliceblue;   
+}
+/*----------Variables----------*/
+:root{
+    --color-theme-principal: gold;
+}
+
+/*----------Header----------*/
+header{
+    background-color: rgba(53, 53, 53, 0.5);
+    margin: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 4px;
+}
+header h1{
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 60%;
+    padding-left: 1rem;
+}
+.chips-userdata{
+    display: inline-block;
+}
+.chips-userdata div{
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    display: inline-block;
+    margin: auto 4px;
+    padding: 0 1rem;
+    font-size: 16px;
+}
+.chips-userdata .type-acount{
+    background-color: white;
+    color: black;
+}
+.chips-userdata .downloads{
+    background-color: black;
+    color: white;
+}
+.chips-userdata .user-avatar{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    border-radius: 50%;
+}
+/*----------Main----------*/
+main{
+    background-color: rgba(53, 53, 53, 0.5);
+    margin: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 4px;
+}
+/*----------Aside----------*/
+aside{
+    width: 20%;
+    height: 100%;
+    margin: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 4px;
+    display: inline-block;
+
+}
+/*----------Main----------*/
+.main-content{
+    height: 100%;
+    width: 70%;
+    margin: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 4px;
+    display: inline-block;
+}
+.first-section, .second-section {
+
+   background-color: gray;
+   border-radius: 16px;
+   padding: 8px;
+   margin: 8px;
+
+}
+
+/*----------Footer----------*/
+footer{
+    background-color:black;
+    padding: 1rem;
+    text-align: center;
+}
+.card-tipo{
+    display: inline-block;
+    width: 30%;
+}
+.media-controls{
+    display: inline-block;
+    width: 38%;
+}
+.media-controls div{
+    display: inline-block;
+}
+.media-controls .control-buttons, .media-controls .track-bar{
+    display: block;
+
+}
+
+.config-options{
+    display: inline-block;
+    width: 30%;
+}
+.config-options div{
+    display: inline-block;
+}
