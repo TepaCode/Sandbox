@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*-------------Header & Footer-----------*/
+header{
+    width: 100%;
+    color: white;
+}
+.head-logo{
+    width: 100%;
+    height: 4rem;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head-logo img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+.head-logo h1{
+    height: 4rem;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-right:0.5rem;
+}
+.nav, .socialinks{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+}
+.nav li, .footer li{
+    padding-left: 1rem;
+    list-style: none;
+    background-color: whitesmoke;
+}
+/*-------------Body-----------*/
+body{
+    margin: 0.5rem;
+}
+/*-------------S01-----------*/
+
+    
+
+/*-------------S02-----------*/
+.main-galery{
+    margin: 2rem 0;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-galery div{
+    
+    height: 160px;
+    background-color: gray;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding:1rem;
+    
+}
+.main-galery div img{
+    width: 60px;
+    height: 80px;
+   
+}
+.main-galery div p{
+
+    
+    padding-top: 1rem;
+}
+
+/*-------------S03-----------*/
+
+.main-contact{
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 1rem 0;
+    
+}
+.img-contact{
+    width: 60%;
+    margin: 1rem auto;
+}
+.img-contact img{
+
+    width: 100%;
+}
+.contact{
+    width: 60%;
+    margin: 1rem auto;
+    text-align: center;
+    
+}
+.contact ul{
+
+    border: 1px solid gray;
+    margin: 1rem auto;
+}
+.contact li{
+    list-style: none;
+}
+
+    
+    
