@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+/*
+html{
+    font-size: 16px;
+    
+}*/
 /*-------------Header & Footer-----------*/
 header{
     width: 100%;
@@ -43,7 +48,33 @@ body{
     margin: 0.5rem;
 }
 /*-------------S01-----------*/
-
+.main-resume{
+    display: flex;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.img-resume{
+    width: 160px;
+    
+}
+.img-resume img{
+    width: 140px;
+}
+.data-resume{
+    padding-left: 1rem;
+    
+}
+.title-resume{
+    font-size: 1.5rem;
+}
+.content-resume{
+    margin: 1rem 0;
+    
+}
+.cita-resume{
+    text-align: right;
+    font-size: 0.5rem;
+}
     
 
 /*-------------S02-----------*/
@@ -81,6 +112,7 @@ body{
     width: 100%;
     background-color: whitesmoke;
     margin: 1rem 0;
+    padding: 1rem 0;
     
 }
 .img-contact{
