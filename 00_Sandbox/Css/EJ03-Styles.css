@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------Header & Footer-----------*/
+
+.head-logo{
+    width: 100%;
+    background-color: #2a5218;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 3rem 0 0;
+    box-shadow: 4px 4px 8px rgb(43, 42, 42);
+}
+.head-logo button{
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem 2rem;
+    border: 2px solid rgb(40, 35, 61);
+    border-radius: 50%;
+    box-shadow: 4px 4px 6px rgb(22, 34, 41);
+    background-image: url("../Sources/Space-04.jpg");
+    background-size:cover;
+    background-position: center;
+}
+.head-logo button:hover{
+    box-shadow: 4px 4px 6px rgb(206, 210, 212);
+
+}
+.head-logo button:active{
+    width: 6.2rem;
+    height: 6.2rem;
+    box-shadow: 4px 4px 6px rgb(206, 210, 212);
+
+}
+
+.head-logo h1{
+    font-size: 2rem;
+    padding-right:2rem;
+    padding-top: 4rem;
+    color: rgb(226, 229, 233);
+    text-shadow: 2px 2px 6px rgb(22, 34, 41);
+}
+.head-logo h1:hover{
+    background-color: #dab823;
+}
+
+
+.head-logo h1 span{
+    color: rgb(226, 172, 23);
+    font-weight:1000;
+
+}
+.nav, .socialinks{
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(218, 135, 12);
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+
+}
+.nav li, .footer li{
+    margin: auto 0.1rem;
+    font-weight:bold;
+    list-style: none;
+    color: white;
+    width: 8rem;
+    text-align: center;
+    
+}
+.nav li:focus, .footer li:focus{
+    text-shadow: 2px 2px 2px rgb(46, 45, 45);
+}
+.footer li:active{
+
+    color: rgb(114, 27, 15);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav li:hover{
+
+    color: rgb(88, 8, 71);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/*-------------Body-----------*/
+body{
+    height: 100vh;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+/*-------------S01-----------*/
+.formulario-registro{
+    width: 300px;
+    height: 400px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    background-color: rgb(182, 182, 182);
+    color: #534603;
+}
+.formulario-registro input{
+    height: 2rem;
+    border: none;
+    border-bottom: 2px gray solid;
+    margin-top: 1rem;
+    padding-left: 2px;
+}
+input:hover{
+    padding-bottom: 1.5rem;
+    font-size: 0.5rem;
+
+}
+.formulario-registro button{
+    width: 8rem;
+    height: 2rem;
+    margin: 1rem auto;
+    background-color: rgb(44, 20, 44);
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px black;
+}
+.formulario-registro button:hover{
+    box-shadow: 6px 6px 6px rgb(19, 18, 18);
+}
+.card-registros{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(146, 146, 146);
+    margin-bottom: 2rem;
+}
+/*----------Cards--------*/
+.card-tipo{
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 160px;
+    min-height: 160px;
+    border-radius: 1rem;
+    background-color: #50554e;
+}
+.card-tipo h3{
+    text-align: center;
+    color: white;
+}
+.card-tipo p{
+    padding-top: 1rem;
+    color: #74c95a;
+
+}
+
+
+/*-------------S02-----------*/
+
+/*-------------S03-----------*/
+
+    
+    

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>EJ-02 Buttons</title>
+        <link rel="stylesheet" href="Css/EJ02-Styles.css" type="text/css" media="all" />
+        <link rel="shortcut icon" href="Sources/Space-04.ico" type="image/x-icon">
+        <script src="Scripts/EJ02-Scripts.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="head-logo">
+                <button class="button-rocket" onclick="keepCalm(0)"></button>
+                <h1>Curso JS <span>|</span> Day <span>:</span> Three <span>|</span> Ejercicio 01</h1>
+            </div>
+            <ul class="nav">
+                <li>Buttons</li>
+                <li>Users</li>
+                <li>Animations</li>
+            </ul>
+        </header>
+       
+<!------------S01-Buttons-------------->
+        <section class="main-buttons">
+            <button class="box-one">?</button>
+            <button class="box-two" onclick="boxRandom()">?</button>
+            <button class="box-three">?</button>
+            <button class="box-four" onclick="boxRandom()">?</button>
+        </section>
+        <section class="inputs-user">
+            <div>
+                <input type="text" id="input-one" placeholder="Name:"/>
+                <button type="submit" onclick="alertName()">👦</button>
+            </div>
+            
+            <div>
+                <input type="text" id="input-two" placeholder="Email:"/>
+                <button type="submit" onclick="alertEmail()">🖥️</button>
+            </div>
+            
+            <div>
+                <input type="text" id="input-three" placeholder="Tel:"/>
+                <button type="submit" onclick="alertTel()">📞</button>
+            </div>
+
+            <div>
+                <input type="text" id="input-four" placeholder="Subject:"/>
+                <button type="submit" onclick="alertSubject()">📨</button>
+            </div>
+
+        </section>
+<!------------Footer-------------->
+        <footer class="footer">
+            <ul class="socialinks">
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Github</li>
+            </ul>
+        </footer>
+    </body>
+</html>

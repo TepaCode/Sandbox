@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------Header & Footer-----------*/
+
+.head-logo{
+    width: 100%;
+    background-color: #5098ad;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 3rem 0 0;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+.head-logo button{
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem 2rem;
+    border: 2px solid rgb(40, 35, 61);
+    border-radius: 50%;
+    box-shadow: 4px 4px 6px rgb(22, 34, 41);
+    background-image: url("../Sources/Space-04.jpg");
+    background-size:cover;
+    background-position: center;
+}
+.head-logo button:hover{
+    box-shadow: 4px 4px 6px rgb(206, 210, 212);
+
+}
+.head-logo button:active{
+    width: 6.2rem;
+    height: 6.2rem;
+    box-shadow: 4px 4px 6px rgb(206, 210, 212);
+
+}
+
+.head-logo h1{
+    font-size: 2rem;
+    padding-right:2rem;
+    padding-top: 4rem;
+    color: rgb(25, 39, 56);
+    text-shadow: 2px 2px 6px rgb(22, 34, 41);
+}
+.head-logo h1 span{
+    color: rgb(74, 185, 148);
+    font-weight:1000;
+
+}
+.nav, .socialinks{
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(88, 82, 116);
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+
+}
+.nav li, .footer li{
+    margin: auto 0.1rem;
+    font-weight:bold;
+    list-style: none;
+    color: white;
+    width: 8rem;
+    text-align: center;
+    
+}
+.nav li:focus, .footer li:focus{
+    text-shadow: 2px 2px 2px rgb(46, 45, 45);
+}
+.footer li:active{
+
+    color: rgb(65, 72, 167);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav li:hover{
+
+    color: rgb(88, 8, 71);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/*-------------Body-----------*/
+body{
+    height: 100vh;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+/*-------------S01-----------*/
+.main-buttons{
+    background-color: #5098ad;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    
+}
+.main-buttons button{
+    width: 120px;
+    height: 120px;
+    border: 4px rgb(241, 235, 141) solid;
+    border-radius: 8px;
+    background-color: #FF8400;
+    font-size: 6rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: 8px 8px 16px black;
+    text-shadow: 4px 4px 4px black;
+    margin: 4rem 0;
+}
+.main-buttons button:focus{
+    box-shadow: 8px 8px 16px rgb(255, 255, 255);
+}
+
+.box-two:active, .box-four:active{
+    min-height: 80px;
+    min-width: 80px;
+    background-color: purple;
+    color: green;
+    font-size: 5rem;
+    
+}
+.box-one:hover, .box-three:hover{
+    background-color: red;
+    min-width:80px;
+    min-height: 80px;
+    font-size: 5rem;
+    color: orange;
+}
+.inputs-user{
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputs-user input{
+    height: 2rem;
+    border: 2px solid gray;
+    border-radius: 1rem 0 0 1rem;
+    padding-left: 1rem;
+    background-color: rgb(164, 157, 212);
+    box-shadow: 4px 4px 4px rgb(5, 5, 41);
+    color: darkolivegreen;
+}
+.inputs-user input:focus{
+    color: rgb(34, 37, 27);
+    font-weight:bold ;
+
+}
+.inputs-user button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 4px 4px 4px rgb(12, 3, 49);
+    background-color: rgb(41, 40, 80);
+}
+.inputs-user button:hover{
+    width: 2.2rem;
+    height: 2.2rem;
+    box-shadow: 4px 4px 4px rgb(49, 95, 155);
+
+
+}
+
+/*-------------S02-----------*/
+
+/*-------------S03-----------*/
+
+    
+    

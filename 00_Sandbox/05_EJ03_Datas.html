@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>EJ-03 Datas</title>
+        <link rel="stylesheet" href="Css/EJ03-Styles.css" type="text/css" media="all" />
+        <link rel="shortcut icon" href="Sources/Space-04.ico" type="image/x-icon">
+        <script src="Scripts/EJ03-Scripts.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="head-logo">
+                <button class="button-rocket" onclick="keepCalm(0)"></button>
+                <h1>Curso JS <span>|</span> Day <span>:</span> Three <span>|</span> Ejercicio 01</h1>
+            </div>
+            <ul class="nav">
+                <li>Buttons</li>
+                <li>Users</li>
+                <li>Animations</li>
+            </ul>
+        </header>
+       
+<!------------S01-Buttons-------------->
+        <section class="formulario-registro">
+            <h1>Suscribete a nuestras clases!</h1>
+            <br>
+            <input type="text" id="nameUser" placeholder="Name: ">
+            <input type="email" id="emailUser" placeholder="Email: ">
+            <input type="tel" id="phoneUser" placeholder="Phone: ">
+            <button onclick="userData(), counterMain()">Registrar</button>
+            <br>
+            <h2 id="registerCounter">Cupo limitado.</h2>
+        </section>
+
+        <section class="card-registros">
+            <div class="card-tipo card-one">
+                <h3 id="outputName">User name</h3>
+                <hr class="hr-card">
+                <p id="outputEmail">Email User</p> 
+                <p id="outputPhone">Phone User</p>
+                <p id="outputID">ID User</p>
+            </div>
+            <div class="card-tipo card-two">
+                <h3>User name</h3>
+                <hr>
+                <p>Email User</p> 
+                <p>Phone User</p>
+                <p>ID User</p>
+            </div>
+            <div class="card-tipo card-three">
+                <h3>User name</h3>
+                <hr>
+                <p>Email User</p> 
+                <p>Phone User</p>
+                <p>ID User</p>
+            </div>
+            <div class="card-tipo card-four">
+                <h3>User name</h3>
+                <hr>
+                <p>Email User</p> 
+                <p>Phone User</p>
+                <p>ID User</p>
+            </div>
+            <div class="card-tipo card-five">
+                <h3>User name</h3>
+                <hr>
+                <p>Email User</p> 
+                <p>Phone User</p>
+                <p>ID User</p>
+            </div>
+        </section>
+<!------------Footer-------------->
+        <footer class="footer">
+            <ul class="socialinks">
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Github</li>
+            </ul>
+        </footer>
+    </body>
+</html>
