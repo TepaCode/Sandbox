@@ -21,7 +21,7 @@
     border: 2px solid rgb(40, 35, 61);
     border-radius: 50%;
     box-shadow: 4px 4px 6px rgb(22, 34, 41);
-    background-image: url("../Sources/Space-04.jpg");
+    background-image: url("../Sources/01_Images/Space-04.jpg");
     background-size:cover;
     background-position: center;
 }
@@ -44,7 +44,7 @@
     text-shadow: 2px 2px 6px rgb(22, 34, 41);
 }
 .head-logo h1:hover{
-    background-color: #dab823;
+    color: #dab823;
 }
 
 
@@ -157,10 +157,29 @@ input:hover{
 
 }
 
-
-/*-------------S02-----------*/
-
-/*-------------S03-----------*/
-
-    
+/*-------------Audio Card-----------*/
+.card-two{
+    text-align: center;
+}
+.card-two button{
+    margin: 1rem auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px black;
+    font-size: 2rem;
+}
+.card-two button:hover{
+    box-shadow: 4px 4px 8px white;
+}
+.card-three audio{
+    margin: 1.5rem auto;
+    box-shadow: 4px 4px 8px black;
+    border-radius:1.5rem ;
+}
+audio::-webkit-media-controls-panel{
+    background-color: gray;  
+}
+/*-------------Time Card-----------*/
+ 
     

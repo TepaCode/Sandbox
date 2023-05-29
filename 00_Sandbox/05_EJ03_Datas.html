@@ -8,7 +8,7 @@
         <script src="Scripts/EJ03-Scripts.js"></script>
     </head>
     
-    <body>
+    <body onload="startClock(), actualDate()">
         <header>
             <div class="head-logo">
                 <button class="button-rocket" onclick="keepCalm(0)"></button>
@@ -28,7 +28,7 @@
             <input type="text" id="nameUser" placeholder="Name: ">
             <input type="email" id="emailUser" placeholder="Email: ">
             <input type="tel" id="phoneUser" placeholder="Phone: ">
-            <button onclick="userData(), counterMain()">Registrar</button>
+            <button onclick="userData(), counterMain(), alertMesage()">Registrar</button>
             <br>
             <h2 id="registerCounter">Cupo limitado.</h2>
         </section>
@@ -42,25 +42,23 @@
                 <p id="outputID">ID User</p>
             </div>
             <div class="card-tipo card-two">
-                <h3>User name</h3>
+                <audio src="/Sources/02_Music/mario_start_final.mp3" id="audio-uno"></audio>
+                <h3>Audio Card</h3>
                 <hr>
-                <p>Email User</p> 
-                <p>Phone User</p>
-                <p>ID User</p>
+                <button onclick="playAudio()">🎵</button>
             </div>
             <div class="card-tipo card-three">
-                <h3>User name</h3>
+                <h3>Audio Card Control</h3>
                 <hr>
-                <p>Email User</p> 
-                <p>Phone User</p>
-                <p>ID User</p>
+                <audio controls id="audio-two" src="/Sources/02_Music/Chop Suey-Jazz.mp3" type="audio/mpeg">
+                    Musica uno
+                </audio>
             </div>
             <div class="card-tipo card-four">
-                <h3>User name</h3>
+                <h3>Time Card</h3>
                 <hr>
-                <p>Email User</p> 
-                <p>Phone User</p>
-                <p>ID User</p>
+                <p id="clockText">00:00:00</p> 
+                <p id="dateText">DD/MM/YY</p>
             </div>
             <div class="card-tipo card-five">
                 <h3>User name</h3>
