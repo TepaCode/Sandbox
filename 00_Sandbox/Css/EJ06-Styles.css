@@ -1,10 +1,109 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     width: 80vw;
     background-color: rgb(14, 14, 14);
     color: white;
-    margin: 0 auto;
+    margin: 1rem auto;
+}
+.head-movieList{
+    display: flex;
+    margin-bottom: 1rem;
+    
+}
+.head-text{
+    width: 50%;
+    padding: ;
+    color: red;
+}
+.head-text h1{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.head-text p{
+    text-align: justify;
+    padding-right: 8px;
+}
+
+
+.image-page{
+    width: 50%;
+}
+.image-page img{
+    width: 100%;
+}
+.intro{
+    text-align: center;
+}
+.edad-control{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0;
+}
+.input-edad{
+    width: 30%;
+    padding: 4px;
+    border-radius: 8px;
+}
+.edad-control button{
+    width: 30%
+    padding: 4px;
+    background-color: yellow;
+    border: solid 2px red;
+}
+.chips{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    justify-content: space-between;
+    
+    
+}
+.chips button{
+    height: 1.5rem;
+    border: solid 2px gray;
+    border-radius: 0.75rem;
+    background-color: black;
+    color: gold;
+    margin: 4px;
+    padding: 0 8px;
+}
+.recomendaciones{
+    margin: 8px auto;
+}
+.cards-recomendations {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+.card-movie{
+   
+    width: 120px;
+    min-height: 200px;
+    border-radius: 8px;
+    background-color: gray;
+    text-align: center;
+    padding: 8px;
+}
+.card-movie img{
+    width: 80%;
+    margin-bottom: 8px;
+    
+    
+}
+
+.logo-code{
+    width: 80px;
+    height: 80px;
+    margin: 2rem auto;
+    background-color: gray;
+    border-radius: 16px;
+    color: white;
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: center;
 }
