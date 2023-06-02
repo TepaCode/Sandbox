@@ -5,19 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/EJ06-Styles.css">
-    <link rel="shortcut icon" href="Sources/Avatar01.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="Sources/Avatar-01.ico" type="image/x-icon" />
     <title>Listado Peliculas</title>
 </head>
 <body>
     <!------------------LISTADO DE PELICULAS---------------------->
 
     <section>
-        <h1>Recomendación de películas</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus libero dolor cupiditate veritatis mollitia? Voluptatem laboriosam modi atque. Quibusdam ad distinctio voluptatem sequi earum culpa. Aperiam, alias! Facilis, qui quaerat?</p>
+        <section class="head-movieList">
+            <div class="head-Text">
+                <h1>Tarde de película!</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus libero dolor cupiditate veritatis mollitia? </p>
+            </div>
+            <div class="image-page">
+                <img src="Src/Tanos.jpg" alt="poster" />
+            </div>
+        </section>    
+        
         <hr>
-        <input class="input-edad" type="number" placeholder="Edad" >
+        <section class="edad-control">
+            
+            <input class="input-edad" type="number" placeholder="Ingresa tu edad" name="edad">
+            <button id="find" onclick="findMovie">Buscar</button>
+        </section>
         <hr>
-        <section>
+        <section class="chips">
             <button>Accion</button>
             <button>Drama</button>
             <button>Comedia</button>
@@ -27,13 +39,30 @@
             <button>Documental</button>
             <button>Musical</button>
         </section>
-        <hr>
-        <h2>Recomendaciones</h2>
-        <p>Resultado de busqueda</p>
+        
+        <hr />
 
-
+        <section class="recomendaciones">
+            <h2>Recomendaciones</h2>
+            <section class="cards-recomendations">
+                <div class="card-movie">
+                    <img src="Src/ArminAOT.jpg" alt="imagen movie" />
+                    <h3>Title movie</h3>
+                    <p>Sinopsis movie in current card</p>
+                </div>
+                <div class="card-movie">
+                    <img src="Src/AOTposter.jpg" alt="imagen movie" />
+                    <h3>Title movie</h3>
+                    <p>Sinopsis movie in current card</p>
+                </div>
+            </section>
+        </section>
     </section>
-
+    <section class="logo-code">
+        <div>
+        </div>
+        
+    </section>
 
 </body>
 </html>
