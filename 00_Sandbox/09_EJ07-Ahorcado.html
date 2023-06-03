@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Ahorcado</title>
+        <link rel="stylesheet" href="Css/AhorcadoGame-Styles.css" type="text/css" media="all" />
+        <script src="Scripts/ahorcado-Scripts.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <section class="header-game">
+            <h2 class="title-game">Find the word</h2>
+            <button id="start-game" onclick="startGame()">start</button>
+        </section>
+        
+        <section class="data-game">
+            <p>Score: <span id="score">----</span></p>
+            <p>Lives: <span id="lives">---</span></p>
+        </section>
+        
+        <section class="drawables">
+            <article>
+                <img src="" alt="player draw" />
+                <pre>
+                    
+                 ---------------------
+                   \|/               |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                    |
+                   /|\
+                  / | \
+             -------------------------------
+                </pre>
+            </article>
+            
+            <div class="word-lines">
+                <div>
+                    <input type="text" id="word-input" value="" />
+                    <button id="send-word">></button>
+                    <p class="alert-validation">✔️</p>
+                </div>
+                <ul class="word-list">
+                    <li>_ _ _ _ _ _ _ _ _</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="inputs-user">
+
+        </section>
+        
+        <section class="footer-game">
+            <ul class="menu-footer">
+                <li>home</li>
+                <li>end</li>
+                <li>skip</li>
+            </ul>
+        </section>
+        
+        <section class="consol-test">
+            <h4>-----------console test----------</h4>
+            <ul>
+                
+            </ul>
+        </section>
+    </body>
+</html>
